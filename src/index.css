@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root {
+  width: 1200px;
+  max-width: 96%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.app-block__start {
+  display: grid;
+  grid-template-columns: 200px 100px;
+}
+select {
+  padding: 10px!important;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  border: 2px solid #3182ce85;
+}
+.app-block__square {
+  display: grid;
+  grid-template-columns: 0fr auto; 
+}
+.result-container {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.result-container__items p {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid ffbf00;
+  width: fit-content;
+  margin-bottom: 10px;
+  background: #ffc10733;
+}
+.btn {
+  margin-left: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #3182ce;
+  color: #fff;
+  font-weight: 700;
+}
+.square-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+  margin-top: 50px;
+  min-width: 260px;
+  width: min-content;
+}
+.square-block {
+  display: grid;
+  
+  grid-gap: 1px;
+}
+.square-block__item {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.blue {
+  background: #3182ce;
+}
+
